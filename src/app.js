@@ -25,25 +25,25 @@ app.use(express.static(publicDirectoryPath))
 
 app.get('', (req, res) => {
     res.render('index', {
-        title: 'Weather',
+        title: 'Weather Application',
         name: 'Peeyush'
     })
 })
 
-app.get('/about', (req, res) => {
-    res.render('about', {
-        title: 'About me' ,
-        name: 'Peeyush'
-    })
-})
+// app.get('/about', (req, res) => {
+//     res.render('about', {
+//         title: 'About me' ,
+//         name: 'Peeyush'
+//     })
+// })
 
-app.get('/help', (req, res) => {
-    res.render('help', {
-        helpText: 'This is help text',
-        title: 'Help',
-        name: 'Peeyush'
-    })
-})
+// app.get('/help', (req, res) => {
+//     res.render('help', {
+//         helpText: 'This is help text',
+//         title: 'Help',
+//         name: 'Peeyush'
+//     })
+// })
 // app.get('', (req, res) => {
 //    res.send('<h1>Weather</h1')
 // })
