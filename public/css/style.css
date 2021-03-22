@@ -1,6 +1,7 @@
 body {
     color: #333333;
-    background: linear-gradient(rgb(49, 114, 122),rgb(48,62,143));
+    /* background: linear-gradient(rgb(49, 114, 122),rgb(48,62,143)); */
+    background: url(https://upload.wikimedia.org/wikipedia/commons/d/d0/Cool_weather.jpg);
     font-family: arial;
     max-width: 650px;
     margin: 0 auto;
@@ -34,11 +35,10 @@ header {
 h1 {
     font-size: 4rem;
     margin-bottom: 16px;
-
     /* font-size: 1.7rem; */
     /* font-weight: 300; */
     display: inline-block;
-    padding-bottom: 6px;
+    padding-bottom: 8px;
     position: relative;
     /* color: #262626; */
     /* margin: 15px; */
@@ -51,7 +51,7 @@ h1:before{
     height: 5px;
     bottom: 0;
     left: 25%;
-    border-bottom: 2px solid #333333;
+    border-bottom: 2px solid #262626;
     padding-top: 5px;
 }
 
@@ -70,6 +70,7 @@ input {
     padding: 8px;
     align-items: center;
     width: 300px;
+    height: 40px;
     margin-left: 110px;
 }
 
